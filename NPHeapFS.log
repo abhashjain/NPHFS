@@ -1,0 +1,1272 @@
+
+nphfuse_init()
+    conn:
+    proto_major = 7
+    proto_minor = 23
+    async_read = 1
+    max_write = 131072
+    max_readahead = 131072
+    capable = 00000ffb
+    want = 00000010
+    max_background = 0
+    congestion_threshold = 0
+    context:
+    fuse = 00d2b510
+    uid = 0
+    gid = 0
+    pid = 0
+    private_data = 00d2b010
+    logfile = 00d2b050
+    umask = 00000
+
+init: Root node size: 0
+
+init: Creating root node in NPHEAP
+
+init: Finished creating root node in NPHEAP
+
+nphfuse_getattr: path: / , statbuf: fafe7c60
+
+nphfuse_getattr: inside root directory
+    si:
+    st_dev = 3
+    st_ino = 1
+    st_mode = 040755
+    st_nlink = 2
+    st_uid = 240749
+    st_gid = 1001
+    st_rdev = 0
+    st_size = 8192
+    st_blksize = 8192
+    st_blocks = 8
+    st_atime = 0x5a14fddb
+    st_mtime = 0x5a14fddb
+    st_ctime = 0x5a14fddb
+
+Abhash is returning root
+
+nphfuse_access: Inside path is / mask is 01
+
+nphfuse_access: inside root directory
+nphfuse_opendir
+nphfuse_opendir: Node found. Setting fi->fh to 1
+
+nphfuse_getattr: path: / , statbuf: fa7e6c60
+
+nphfuse_getattr: inside root directory
+    si:
+    st_dev = 3
+    st_ino = 1
+    st_mode = 040755
+    st_nlink = 2
+    st_uid = 240749
+    st_gid = 1001
+    st_rdev = 0
+    st_size = 8192
+    st_blksize = 8192
+    st_blocks = 8
+    st_atime = 0x5a14fddb
+    st_mtime = 0x5a14fddb
+    st_ctime = 0x5a14fddb
+
+Abhash is returning root
+
+nphfuse_readdir: path: /
+nphfuse_readdir: returning dir details for node:  1
+nphfuse_releasedir: unlocking node fi->fh: 1
+
+nphfuse_getattr: path: /abhash , statbuf: fafe7c90
+nphfuse_getattr: Inode not found
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+nphfuse_mkdir Inside: /abhash
+nphfuse_mkdir: Node not found. to be created
+nphfuse_mkdir: creating a new node at emptyIndex 2 for abhash
+ and updating parent at 0
+nphfuse_mkdir: returning from mkdir
+
+nphfuse_getattr: path: /abhash , statbuf: fa7e6c90
+nphfuse_getattr: returning a new node with crtNode 2
+    si:
+    st_dev = 3
+    st_ino = 2
+    st_mode = 040755
+    st_nlink = 2
+    st_uid = 240749
+    st_gid = 1001
+    st_rdev = 0
+    st_size = 8192
+    st_blksize = 8192
+    st_blocks = 0
+    st_atime = 0x5a14fdf6
+    st_mtime = 0x5a14fdf6
+    st_ctime = 0x5a14fdf6
+
+nphfuse_getattr: path: / , statbuf: fafe7c60
+
+nphfuse_getattr: inside root directory
+    si:
+    st_dev = 3
+    st_ino = 1
+    st_mode = 040755
+    st_nlink = 2
+    st_uid = 240749
+    st_gid = 1001
+    st_rdev = 0
+    st_size = 8192
+    st_blksize = 8192
+    st_blocks = 8
+    st_atime = 0x5a14fddb
+    st_mtime = 0x5a14fdf6
+    st_ctime = 0x5a14fddb
+
+Abhash is returning root
+
+nphfuse_getattr: path: /abhash , statbuf: fa7e6c90
+nphfuse_getattr: returning a new node with crtNode 2
+    si:
+    st_dev = 3
+    st_ino = 2
+    st_mode = 040755
+    st_nlink = 2
+    st_uid = 240749
+    st_gid = 1001
+    st_rdev = 0
+    st_size = 8192
+    st_blksize = 8192
+    st_blocks = 0
+    st_atime = 0x5a14fdf6
+    st_mtime = 0x5a14fdf6
+    st_ctime = 0x5a14fdf6
+
+nphfuse_access: Inside path is /abhash mask is 01
+nphfuse_access: returning a new node with crtNode 2
+nphfuse_opendir
+nphfuse_opendir: Node found. Setting fi->fh to 2
+
+nphfuse_readdir: path: /abhash
+nphfuse_readdir: returning dir details for node:  2
+nphfuse_releasedir: unlocking node fi->fh: 2
+
+nphfuse_getattr: path: / , statbuf: fafe7c60
+
+nphfuse_getattr: inside root directory
+    si:
+    st_dev = 3
+    st_ino = 1
+    st_mode = 040755
+    st_nlink = 2
+    st_uid = 240749
+    st_gid = 1001
+    st_rdev = 0
+    st_size = 8192
+    st_blksize = 8192
+    st_blocks = 8
+    st_atime = 0x5a14fddb
+    st_mtime = 0x5a14fdf6
+    st_ctime = 0x5a14fddb
+
+Abhash is returning root
+
+nphfuse_getattr: path: /abhash , statbuf: fa7e6c90
+nphfuse_getattr: returning a new node with crtNode 2
+    si:
+    st_dev = 3
+    st_ino = 2
+    st_mode = 040755
+    st_nlink = 2
+    st_uid = 240749
+    st_gid = 1001
+    st_rdev = 0
+    st_size = 8192
+    st_blksize = 8192
+    st_blocks = 0
+    st_atime = 0x5a14fdf6
+    st_mtime = 0x5a14fdf6
+    st_ctime = 0x5a14fdf6
+
+nphfuse_access: Inside path is / mask is 01
+
+nphfuse_access: inside root directory
+
+nphfuse_getattr: path: / , statbuf: fa7e6c60
+
+nphfuse_getattr: inside root directory
+    si:
+    st_dev = 3
+    st_ino = 1
+    st_mode = 040755
+    st_nlink = 2
+    st_uid = 240749
+    st_gid = 1001
+    st_rdev = 0
+    st_size = 8192
+    st_blksize = 8192
+    st_blocks = 8
+    st_atime = 0x5a14fddb
+    st_mtime = 0x5a14fdf6
+    st_ctime = 0x5a14fddb
+
+Abhash is returning root
+nphfuse_statfs with path /
+nphfuse_statfs: free blocks are 8190
+nphfuse_opendir
+nphfuse_opendir: Node found. Setting fi->fh to 1
+
+nphfuse_getattr: path: / , statbuf: fafe7c60
+
+nphfuse_getattr: inside root directory
+    si:
+    st_dev = 3
+    st_ino = 1
+    st_mode = 040755
+    st_nlink = 2
+    st_uid = 240749
+    st_gid = 1001
+    st_rdev = 0
+    st_size = 8192
+    st_blksize = 8192
+    st_blocks = 8
+    st_atime = 0x5a14fddb
+    st_mtime = 0x5a14fdf6
+    st_ctime = 0x5a14fddb
+
+Abhash is returning root
+
+nphfuse_readdir: path: /
+nphfuse_readdir: returning dir details for node:  1
+
+nphfuse_getattr: path: /abhash , statbuf: fafe7c90
+nphfuse_getattr: returning a new node with crtNode 2
+    si:
+    st_dev = 3
+    st_ino = 2
+    st_mode = 040755
+    st_nlink = 2
+    st_uid = 240749
+    st_gid = 1001
+    st_rdev = 0
+    st_size = 8192
+    st_blksize = 8192
+    st_blocks = 0
+    st_atime = 0x5a14fdf6
+    st_mtime = 0x5a14fdf6
+    st_ctime = 0x5a14fdf6
+nphfuse_releasedir: unlocking node fi->fh: 1
+
+nphfuse_getattr: path: /a , statbuf: fafe7c90
+nphfuse_getattr: Inode not found
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+nphfuse_mknod: for path: /a 
+nphfuse_mknod: Node not found. to be created to be currentNode = 1
+nphfuse_mknod: j=1
+nphfuse_mknod: j=2
+
+nphfuse_mknod: abhash mknod for j=2 currentNode= 1
+nphfuse_mknod: j=3
+
+nphfuse_mknod: abhash mknod for j=3 currentNode= 1
+
+nphfuse_mknod: abhash got free block at j= 3 and current Node 1 is
+
+nphfuse_mknod: abhash after for loop
+
+nphfuse_mknod Abhash :got emptyIndex 3
+
+nphfuse_mknod: creating a new node at emptyIndex 3 for a
+ and updating parent at 1
+nphfuse_mknod: returning from mknod
+
+nphfuse_getattr: path: /a , statbuf: fafe7c90
+nphfuse_getattr: returning a new node with crtNode 3
+    si:
+    st_dev = 3
+    st_ino = 3
+    st_mode = 0100644
+    st_nlink = 1
+    st_uid = 240749
+    st_gid = 1001
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 8192
+    st_blocks = 0
+    st_atime = 0x5a14fe09
+    st_mtime = 0x5a14fe09
+    st_ctime = 0x5a14fe09
+nphfuse_open: with path: /a
+nphfuse_open: Node found. Setting fi->fh to 3
+
+nphfuse_flush(path="/a", fi=0xfafe7d40)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x00000003
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000003
+    lock_owner = 0x65cb8b99a427664d
+nphfuse_utime for path /a
+nphfuse_utime: updating the access time and modification time 3 for tok a
+
+nphfuse_getattr: path: /a , statbuf: fa7e6bc0
+nphfuse_getattr: returning a new node with crtNode 3
+    si:
+    st_dev = 3
+    st_ino = 3
+    st_mode = 0100644
+    st_nlink = 1
+    st_uid = 240749
+    st_gid = 1001
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 8192
+    st_blocks = 0
+    st_atime = 0x5a14fe09
+    st_mtime = 0x5a14fe09
+    st_ctime = 0x5a14fe09
+
+nphfuse_flush(path="/a", fi=0xfafe7d40)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x00000003
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000003
+    lock_owner = 0x65cb8b99a427664d
+nphfuse_release: with path: /a
+nphfuse_opendir
+nphfuse_opendir: Node found. Setting fi->fh to 1
+
+nphfuse_getattr: path: / , statbuf: fa7e6c60
+
+nphfuse_getattr: inside root directory
+    si:
+    st_dev = 3
+    st_ino = 1
+    st_mode = 040755
+    st_nlink = 3
+    st_uid = 240749
+    st_gid = 1001
+    st_rdev = 0
+    st_size = 8192
+    st_blksize = 8192
+    st_blocks = 8
+    st_atime = 0x5a14fddb
+    st_mtime = 0x5a14fe09
+    st_ctime = 0x5a14fddb
+
+Abhash is returning root
+
+nphfuse_readdir: path: /
+nphfuse_readdir: returning dir details for node:  1
+
+nphfuse_getattr: path: /abhash , statbuf: fa7e6c90
+nphfuse_getattr: returning a new node with crtNode 2
+    si:
+    st_dev = 3
+    st_ino = 2
+    st_mode = 040755
+    st_nlink = 2
+    st_uid = 240749
+    st_gid = 1001
+    st_rdev = 0
+    st_size = 8192
+    st_blksize = 8192
+    st_blocks = 0
+    st_atime = 0x5a14fdf6
+    st_mtime = 0x5a14fdf6
+    st_ctime = 0x5a14fdf6
+
+nphfuse_getattr: path: /a , statbuf: fafe7c90
+nphfuse_getattr: returning a new node with crtNode 3
+    si:
+    st_dev = 3
+    st_ino = 3
+    st_mode = 0100644
+    st_nlink = 1
+    st_uid = 240749
+    st_gid = 1001
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 8192
+    st_blocks = 0
+    st_atime = 0x5a14fe09
+    st_mtime = 0x5a14fe09
+    st_ctime = 0x5a14fe09
+nphfuse_releasedir: unlocking node fi->fh: 1
+
+nphfuse_getattr: path: /a , statbuf: fa7e6c90
+nphfuse_getattr: returning a new node with crtNode 3
+    si:
+    st_dev = 3
+    st_ino = 3
+    st_mode = 0100644
+    st_nlink = 1
+    st_uid = 240749
+    st_gid = 1001
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 8192
+    st_blocks = 0
+    st_atime = 0x5a14fe09
+    st_mtime = 0x5a14fe09
+    st_ctime = 0x5a14fe09
+nphfuse_chmod for path /a and mode is 0100777
+nphfuse_chmod: current node is 3
+
+nphfuse_getattr: path: /a , statbuf: fafe7bc0
+nphfuse_getattr: returning a new node with crtNode 3
+    si:
+    st_dev = 3
+    st_ino = 3
+    st_mode = 0100777
+    st_nlink = 1
+    st_uid = 240749
+    st_gid = 1001
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 8192
+    st_blocks = 0
+    st_atime = 0x5a14fe09
+    st_mtime = 0x5a14fe09
+    st_ctime = 0x5a14fe09
+nphfuse_opendir
+nphfuse_opendir: Node found. Setting fi->fh to 1
+
+nphfuse_getattr: path: / , statbuf: fafe7c60
+
+nphfuse_getattr: inside root directory
+    si:
+    st_dev = 3
+    st_ino = 1
+    st_mode = 040755
+    st_nlink = 3
+    st_uid = 240749
+    st_gid = 1001
+    st_rdev = 0
+    st_size = 8192
+    st_blksize = 8192
+    st_blocks = 8
+    st_atime = 0x5a14fddb
+    st_mtime = 0x5a14fe09
+    st_ctime = 0x5a14fddb
+
+Abhash is returning root
+
+nphfuse_readdir: path: /
+nphfuse_readdir: returning dir details for node:  1
+
+nphfuse_getattr: path: /abhash , statbuf: fafe7c90
+nphfuse_getattr: returning a new node with crtNode 2
+    si:
+    st_dev = 3
+    st_ino = 2
+    st_mode = 040755
+    st_nlink = 2
+    st_uid = 240749
+    st_gid = 1001
+    st_rdev = 0
+    st_size = 8192
+    st_blksize = 8192
+    st_blocks = 0
+    st_atime = 0x5a14fdf6
+    st_mtime = 0x5a14fdf6
+    st_ctime = 0x5a14fdf6
+
+nphfuse_getattr: path: /a , statbuf: fa7e6c90
+nphfuse_getattr: returning a new node with crtNode 3
+    si:
+    st_dev = 3
+    st_ino = 3
+    st_mode = 0100777
+    st_nlink = 1
+    st_uid = 240749
+    st_gid = 1001
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 8192
+    st_blocks = 0
+    st_atime = 0x5a14fe09
+    st_mtime = 0x5a14fe09
+    st_ctime = 0x5a14fe09
+nphfuse_releasedir: unlocking node fi->fh: 1
+
+nphfuse_getattr: path: /a , statbuf: fafe7c90
+nphfuse_getattr: returning a new node with crtNode 3
+    si:
+    st_dev = 3
+    st_ino = 3
+    st_mode = 0100777
+    st_nlink = 1
+    st_uid = 240749
+    st_gid = 1001
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 8192
+    st_blocks = 0
+    st_atime = 0x5a14fe09
+    st_mtime = 0x5a14fe09
+    st_ctime = 0x5a14fe09
+
+nphfuse_getattr: path: /a , statbuf: fa7e6c60
+nphfuse_getattr: returning a new node with crtNode 3
+    si:
+    st_dev = 3
+    st_ino = 3
+    st_mode = 0100777
+    st_nlink = 1
+    st_uid = 240749
+    st_gid = 1001
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 8192
+    st_blocks = 0
+    st_atime = 0x5a14fe09
+    st_mtime = 0x5a14fe09
+    st_ctime = 0x5a14fe09
+nphfuse_chown for path /a and uid is 0 and gid is -1
+nphfuse_chown: current node is 3
+
+nphfuse_getattr: path: /a , statbuf: fafe7bc0
+nphfuse_getattr: returning a new node with crtNode 3
+    si:
+    st_dev = 3
+    st_ino = 3
+    st_mode = 0100777
+    st_nlink = 1
+    st_uid = 0
+    st_gid = 1001
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 8192
+    st_blocks = 0
+    st_atime = 0x5a14fe09
+    st_mtime = 0x5a14fe09
+    st_ctime = 0x5a14fe09
+nphfuse_opendir
+nphfuse_opendir: Node found. Setting fi->fh to 1
+
+nphfuse_getattr: path: / , statbuf: fafe7c60
+
+nphfuse_getattr: inside root directory
+    si:
+    st_dev = 3
+    st_ino = 1
+    st_mode = 040755
+    st_nlink = 3
+    st_uid = 240749
+    st_gid = 1001
+    st_rdev = 0
+    st_size = 8192
+    st_blksize = 8192
+    st_blocks = 8
+    st_atime = 0x5a14fddb
+    st_mtime = 0x5a14fe09
+    st_ctime = 0x5a14fddb
+
+Abhash is returning root
+
+nphfuse_readdir: path: /
+nphfuse_readdir: returning dir details for node:  1
+
+nphfuse_getattr: path: /abhash , statbuf: fafe7c90
+nphfuse_getattr: returning a new node with crtNode 2
+    si:
+    st_dev = 3
+    st_ino = 2
+    st_mode = 040755
+    st_nlink = 2
+    st_uid = 240749
+    st_gid = 1001
+    st_rdev = 0
+    st_size = 8192
+    st_blksize = 8192
+    st_blocks = 0
+    st_atime = 0x5a14fdf6
+    st_mtime = 0x5a14fdf6
+    st_ctime = 0x5a14fdf6
+nphfuse_releasedir: unlocking node fi->fh: 1
+nphfuse_opendir
+nphfuse_opendir: Node found. Setting fi->fh to 1
+
+nphfuse_getattr: path: / , statbuf: fafe7c60
+
+nphfuse_getattr: inside root directory
+    si:
+    st_dev = 3
+    st_ino = 1
+    st_mode = 040755
+    st_nlink = 3
+    st_uid = 240749
+    st_gid = 1001
+    st_rdev = 0
+    st_size = 8192
+    st_blksize = 8192
+    st_blocks = 8
+    st_atime = 0x5a14fddb
+    st_mtime = 0x5a14fe09
+    st_ctime = 0x5a14fddb
+
+Abhash is returning root
+
+nphfuse_readdir: path: /
+nphfuse_readdir: returning dir details for node:  1
+
+nphfuse_getattr: path: /abhash , statbuf: fafe7c90
+nphfuse_getattr: returning a new node with crtNode 2
+    si:
+    st_dev = 3
+    st_ino = 2
+    st_mode = 040755
+    st_nlink = 2
+    st_uid = 240749
+    st_gid = 1001
+    st_rdev = 0
+    st_size = 8192
+    st_blksize = 8192
+    st_blocks = 0
+    st_atime = 0x5a14fdf6
+    st_mtime = 0x5a14fdf6
+    st_ctime = 0x5a14fdf6
+
+nphfuse_getattr: path: /a , statbuf: fa7e6c90
+nphfuse_getattr: returning a new node with crtNode 3
+    si:
+    st_dev = 3
+    st_ino = 3
+    st_mode = 0100777
+    st_nlink = 1
+    st_uid = 0
+    st_gid = 1001
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 8192
+    st_blocks = 0
+    st_atime = 0x5a14fe09
+    st_mtime = 0x5a14fe09
+    st_ctime = 0x5a14fe09
+nphfuse_releasedir: unlocking node fi->fh: 1
+
+nphfuse_getattr: path: / , statbuf: fafe7c60
+
+nphfuse_getattr: inside root directory
+    si:
+    st_dev = 3
+    st_ino = 1
+    st_mode = 040755
+    st_nlink = 3
+    st_uid = 240749
+    st_gid = 1001
+    st_rdev = 0
+    st_size = 8192
+    st_blksize = 8192
+    st_blocks = 8
+    st_atime = 0x5a14fddb
+    st_mtime = 0x5a14fe09
+    st_ctime = 0x5a14fddb
+
+Abhash is returning root
+
+nphfuse_getattr: path: /b , statbuf: fa7e6c90
+nphfuse_getattr: Inode not found
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+nphfuse_getattr: path: /a , statbuf: fafe7c90
+nphfuse_getattr: returning a new node with crtNode 3
+    si:
+    st_dev = 3
+    st_ino = 3
+    st_mode = 0100777
+    st_nlink = 1
+    st_uid = 0
+    st_gid = 1001
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 8192
+    st_blocks = 0
+    st_atime = 0x5a14fe09
+    st_mtime = 0x5a14fe09
+    st_ctime = 0x5a14fe09
+
+nphfuse_getattr: path: /b , statbuf: fa7e6c90
+nphfuse_getattr: Inode not found
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+nphfuse_open: with path: /a
+nphfuse_open: Node found. Setting fi->fh to 3
+
+nphfuse_getattr: path: /b , statbuf: fa7e6c90
+nphfuse_getattr: Inode not found
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+nphfuse_mknod: for path: /b 
+nphfuse_mknod: Node not found. to be created to be currentNode = 1
+nphfuse_mknod: j=1
+nphfuse_mknod: j=2
+
+nphfuse_mknod: abhash mknod for j=2 currentNode= 1
+nphfuse_mknod: j=3
+
+nphfuse_mknod: abhash mknod for j=3 currentNode= 1
+nphfuse_mknod: j=4
+
+nphfuse_mknod: abhash mknod for j=4 currentNode= 1
+nphfuse_mknod: j=5
+
+nphfuse_mknod: abhash mknod for j=5 currentNode= 1
+
+nphfuse_mknod: abhash got free block at j= 5 and current Node 1 is
+
+nphfuse_mknod: abhash after for loop
+
+nphfuse_mknod Abhash :got emptyIndex 5
+
+nphfuse_mknod: creating a new node at emptyIndex 5 for b
+ and updating parent at 2
+nphfuse_mknod: returning from mknod
+
+nphfuse_getattr: path: /b , statbuf: fafe7c90
+nphfuse_getattr: returning a new node with crtNode 5
+    si:
+    st_dev = 3
+    st_ino = 5
+    st_mode = 0100755
+    st_nlink = 1
+    st_uid = 240749
+    st_gid = 1001
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 8192
+    st_blocks = 0
+    st_atime = 0x5a14fe1f
+    st_mtime = 0x5a14fe1f
+    st_ctime = 0x5a14fe1f
+nphfuse_open: with path: /b
+nphfuse_open: Node found. Setting fi->fh to 5
+nphfuse_read: for path /a
+nphfuse_read: file_ino= 3 and size is 4096, offset 0
+nphfuse_read: reading file at 4
+Abhash:let's see what is read 
+
+nphfuse_flush(path="/b", fi=0xfa7e6d40)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x22d039627d837a7d
+nphfuse_release: with path: /b
+
+nphfuse_flush(path="/a", fi=0xfa7e6d40)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x00000003
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000003
+    lock_owner = 0x22d039627d837a7d
+nphfuse_release: with path: /a
+nphfuse_opendir
+nphfuse_opendir: Node found. Setting fi->fh to 1
+
+nphfuse_getattr: path: / , statbuf: fa7e6c60
+
+nphfuse_getattr: inside root directory
+    si:
+    st_dev = 3
+    st_ino = 1
+    st_mode = 040755
+    st_nlink = 4
+    st_uid = 240749
+    st_gid = 1001
+    st_rdev = 0
+    st_size = 8192
+    st_blksize = 8192
+    st_blocks = 8
+    st_atime = 0x5a14fddb
+    st_mtime = 0x5a14fe1f
+    st_ctime = 0x5a14fddb
+
+Abhash is returning root
+
+nphfuse_readdir: path: /
+nphfuse_readdir: returning dir details for node:  1
+
+nphfuse_getattr: path: /abhash , statbuf: fa7e6c90
+nphfuse_getattr: returning a new node with crtNode 2
+    si:
+    st_dev = 3
+    st_ino = 2
+    st_mode = 040755
+    st_nlink = 2
+    st_uid = 240749
+    st_gid = 1001
+    st_rdev = 0
+    st_size = 8192
+    st_blksize = 8192
+    st_blocks = 0
+    st_atime = 0x5a14fdf6
+    st_mtime = 0x5a14fdf6
+    st_ctime = 0x5a14fdf6
+
+nphfuse_getattr: path: /a , statbuf: fafe7c90
+nphfuse_getattr: returning a new node with crtNode 3
+    si:
+    st_dev = 3
+    st_ino = 3
+    st_mode = 0100777
+    st_nlink = 1
+    st_uid = 0
+    st_gid = 1001
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 8192
+    st_blocks = 0
+    st_atime = 0x5a14fe09
+    st_mtime = 0x5a14fe09
+    st_ctime = 0x5a14fe09
+
+nphfuse_getattr: path: /b , statbuf: fa7e6c90
+nphfuse_getattr: returning a new node with crtNode 5
+    si:
+    st_dev = 3
+    st_ino = 5
+    st_mode = 0100755
+    st_nlink = 1
+    st_uid = 240749
+    st_gid = 1001
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 8192
+    st_blocks = 0
+    st_atime = 0x5a14fe1f
+    st_mtime = 0x5a14fe1f
+    st_ctime = 0x5a14fe1f
+nphfuse_releasedir: unlocking node fi->fh: 1
+
+nphfuse_getattr: path: /b.c , statbuf: fafe7c90
+nphfuse_getattr: Inode not found
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+nphfuse_getattr: path: /a , statbuf: fa7e6c90
+nphfuse_getattr: returning a new node with crtNode 3
+    si:
+    st_dev = 3
+    st_ino = 3
+    st_mode = 0100777
+    st_nlink = 1
+    st_uid = 0
+    st_gid = 1001
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 8192
+    st_blocks = 0
+    st_atime = 0x5a14fe09
+    st_mtime = 0x5a14fe09
+    st_ctime = 0x5a14fe09
+
+nphfuse_getattr: path: /b.c , statbuf: fafe7c90
+nphfuse_getattr: Inode not found
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+nphfuse_getattr: path: /b.c , statbuf: fa7e6c90
+nphfuse_getattr: Inode not found
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+nphfuse_rename: with existing file path: /a and new file path: /b.c
+nphfuse_rename: found file to be moved with inode number: 3
+nphfuse_rename: Node not found. to be created
+nphfuse_rename: creating a new link node Node number 3 with name: b.c and updating parent at 1
+nphfuse_rename: returning from mkdir
+nphfuse_opendir
+nphfuse_opendir: Node found. Setting fi->fh to 1
+
+nphfuse_getattr: path: / , statbuf: fafe7c60
+
+nphfuse_getattr: inside root directory
+    si:
+    st_dev = 3
+    st_ino = 1
+    st_mode = 040755
+    st_nlink = 4
+    st_uid = 240749
+    st_gid = 1001
+    st_rdev = 0
+    st_size = 8192
+    st_blksize = 8192
+    st_blocks = 8
+    st_atime = 0x5a14fddb
+    st_mtime = 0x5a14fe28
+    st_ctime = 0x5a14fddb
+
+Abhash is returning root
+
+nphfuse_readdir: path: /
+nphfuse_readdir: returning dir details for node:  1
+
+nphfuse_getattr: path: /abhash , statbuf: fafe7c90
+nphfuse_getattr: returning a new node with crtNode 2
+    si:
+    st_dev = 3
+    st_ino = 2
+    st_mode = 040755
+    st_nlink = 2
+    st_uid = 240749
+    st_gid = 1001
+    st_rdev = 0
+    st_size = 8192
+    st_blksize = 8192
+    st_blocks = 0
+    st_atime = 0x5a14fdf6
+    st_mtime = 0x5a14fdf6
+    st_ctime = 0x5a14fdf6
+
+nphfuse_getattr: path: /b.c , statbuf: fa7e6c60
+nphfuse_getattr: returning a new node with crtNode 3
+    si:
+    st_dev = 3
+    st_ino = 3
+    st_mode = 0100777
+    st_nlink = 1
+    st_uid = 0
+    st_gid = 1001
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 8192
+    st_blocks = 0
+    st_atime = 0x5a14fe09
+    st_mtime = 0x5a14fe09
+    st_ctime = 0x5a14fe09
+
+nphfuse_getattr: path: /b , statbuf: fafe7c90
+nphfuse_getattr: returning a new node with crtNode 5
+    si:
+    st_dev = 3
+    st_ino = 5
+    st_mode = 0100755
+    st_nlink = 1
+    st_uid = 240749
+    st_gid = 1001
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 8192
+    st_blocks = 0
+    st_atime = 0x5a14fe1f
+    st_mtime = 0x5a14fe1f
+    st_ctime = 0x5a14fe1f
+nphfuse_releasedir: unlocking node fi->fh: 1
+
+nphfuse_getattr: path: /t , statbuf: fa7e6c90
+nphfuse_getattr: Inode not found
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+nphfuse_mknod: for path: /t 
+nphfuse_mknod: Node not found. to be created to be currentNode = 1
+nphfuse_mknod: j=1
+nphfuse_mknod: j=2
+
+nphfuse_mknod: abhash mknod for j=2 currentNode= 1
+nphfuse_mknod: j=3
+
+nphfuse_mknod: abhash mknod for j=3 currentNode= 1
+nphfuse_mknod: j=4
+
+nphfuse_mknod: abhash mknod for j=4 currentNode= 1
+nphfuse_mknod: j=5
+
+nphfuse_mknod: abhash mknod for j=5 currentNode= 1
+nphfuse_mknod: j=6
+
+nphfuse_mknod: abhash mknod for j=6 currentNode= 1
+nphfuse_mknod: j=7
+
+nphfuse_mknod: abhash mknod for j=7 currentNode= 1
+
+nphfuse_mknod: abhash got free block at j= 7 and current Node 1 is
+
+nphfuse_mknod: abhash after for loop
+
+nphfuse_mknod Abhash :got emptyIndex 7
+
+nphfuse_mknod: creating a new node at emptyIndex 7 for t
+ and updating parent at 3
+nphfuse_mknod: returning from mknod
+
+nphfuse_getattr: path: /t , statbuf: fafe7c90
+nphfuse_getattr: returning a new node with crtNode 7
+    si:
+    st_dev = 3
+    st_ino = 7
+    st_mode = 0100644
+    st_nlink = 1
+    st_uid = 240749
+    st_gid = 1001
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 8192
+    st_blocks = 0
+    st_atime = 0x5a14fe34
+    st_mtime = 0x5a14fe34
+    st_ctime = 0x5a14fe34
+nphfuse_open: with path: /t
+nphfuse_open: Node found. Setting fi->fh to 7
+
+nphfuse_flush(path="/t", fi=0xfafe7d40)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x00000007
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000007
+    lock_owner = 0x3574b207e1f9f162
+nphfuse_write: for path /t
+nphfuse_write: file_ino= 7 and size is 12, offset 0
+ and data is Abhash Jain
+
+nphfuse_write: writting data at file_content 8
+Data is written, return sucess
+
+nphfuse_flush(path="/t", fi=0xfafe7d40)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x00000007
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000007
+    lock_owner = 0x3574b207e1f9f162
+nphfuse_release: with path: /t
+nphfuse_opendir
+nphfuse_opendir: Node found. Setting fi->fh to 1
+
+nphfuse_getattr: path: / , statbuf: fa7e6c60
+
+nphfuse_getattr: inside root directory
+    si:
+    st_dev = 3
+    st_ino = 1
+    st_mode = 040755
+    st_nlink = 5
+    st_uid = 240749
+    st_gid = 1001
+    st_rdev = 0
+    st_size = 8192
+    st_blksize = 8192
+    st_blocks = 8
+    st_atime = 0x5a14fddb
+    st_mtime = 0x5a14fe34
+    st_ctime = 0x5a14fddb
+
+Abhash is returning root
+
+nphfuse_readdir: path: /
+nphfuse_readdir: returning dir details for node:  1
+
+nphfuse_getattr: path: /abhash , statbuf: fa7e6c90
+nphfuse_getattr: returning a new node with crtNode 2
+    si:
+    st_dev = 3
+    st_ino = 2
+    st_mode = 040755
+    st_nlink = 2
+    st_uid = 240749
+    st_gid = 1001
+    st_rdev = 0
+    st_size = 8192
+    st_blksize = 8192
+    st_blocks = 0
+    st_atime = 0x5a14fdf6
+    st_mtime = 0x5a14fdf6
+    st_ctime = 0x5a14fdf6
+
+nphfuse_getattr: path: /b.c , statbuf: fafe7c90
+nphfuse_getattr: returning a new node with crtNode 3
+    si:
+    st_dev = 3
+    st_ino = 3
+    st_mode = 0100777
+    st_nlink = 1
+    st_uid = 0
+    st_gid = 1001
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 8192
+    st_blocks = 0
+    st_atime = 0x5a14fe09
+    st_mtime = 0x5a14fe09
+    st_ctime = 0x5a14fe09
+
+nphfuse_getattr: path: /b , statbuf: fa7e6c90
+nphfuse_getattr: returning a new node with crtNode 5
+    si:
+    st_dev = 3
+    st_ino = 5
+    st_mode = 0100755
+    st_nlink = 1
+    st_uid = 240749
+    st_gid = 1001
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 8192
+    st_blocks = 0
+    st_atime = 0x5a14fe1f
+    st_mtime = 0x5a14fe1f
+    st_ctime = 0x5a14fe1f
+
+nphfuse_getattr: path: /t , statbuf: fafe7c90
+nphfuse_getattr: returning a new node with crtNode 7
+    si:
+    st_dev = 3
+    st_ino = 7
+    st_mode = 0100644
+    st_nlink = 1
+    st_uid = 240749
+    st_gid = 1001
+    st_rdev = 0
+    st_size = 12
+    st_blksize = 8192
+    st_blocks = 0
+    st_atime = 0x5a14fe34
+    st_mtime = 0x5a14fe34
+    st_ctime = 0x5a14fe34
+nphfuse_releasedir: unlocking node fi->fh: 1
+
+nphfuse_getattr: path: / , statbuf: fa7e6c60
+
+nphfuse_getattr: inside root directory
+    si:
+    st_dev = 3
+    st_ino = 1
+    st_mode = 040755
+    st_nlink = 5
+    st_uid = 240749
+    st_gid = 1001
+    st_rdev = 0
+    st_size = 8192
+    st_blksize = 8192
+    st_blocks = 8
+    st_atime = 0x5a14fddb
+    st_mtime = 0x5a14fe34
+    st_ctime = 0x5a14fddb
+
+Abhash is returning root
+
+nphfuse_destroy(userdata=0x00d2b010)
